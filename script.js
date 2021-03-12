@@ -78,8 +78,8 @@ function fetchBookmarks() {
         // Create bookmark in local storage
         bookmarks = [
             {
-                name: 'Rishi Prasath',
-                url: 'https://rishiprasath.com',
+                name: 'Google',
+                url: 'https://google.com',
             },
     ];
     localStorage.setItem('bookmarks',JSON.stringify(bookmarks));
